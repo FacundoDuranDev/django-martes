@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Simple HTML File</title>
+</head>
+<body>
+    {% for nombre in nombres %}
+        {% if  nombre != "" %}
+            <h1>Tu nombre ees {{nombre}}</h1>
+        {% endif %}
+    {% endfor %}
+</body>
+</html>
